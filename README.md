@@ -3,7 +3,7 @@
 This project involves using MongoDB to analyze fictional food hygiene ratings across various fictional establishments in the UK. The goal is to help the fictional 'Eat Safe, Love' magazine gain insights into the hygiene standards of different locations and assist their editorial team in focusing on specific areas and establishments for future stories.
 
 ## Project Overview
-    The analysis is structured into two main parts:
+The analysis is structured into two main parts:
 
 ### 1. Database Setup & Data Cleaning: 
     Initial setup of the MongoDB database, adding new records, updating existing entries, and removing irrelevant data.

@@ -21,7 +21,7 @@ Using queries and aggregation techniques to extract meaningful insights, such as
 
 ## Code Highlights
 
-### Part 1: Database Setup and Modifications
+### Part 1: Database Setup and Modifications / 'NoSQL_setup_starter.ipynb' file
 
 #### Data Import: 
 Data from establishments.json is imported into a MongoDB collection named establishments in the uk_food database. This is achieved using the following command:
@@ -37,7 +37,7 @@ Added a new restaurant (Penang Flavours) and updated its details, including sett
 #### Data Type Conversion: 
 Used the update_many() method to convert latitude, longitude, and rating values to proper numerical types.
 
-### Part 2: Exploratory Data Analysis
+### Part 2: Exploratory Data Analysis / 'NoSQL_analysis_starter.ipynb' file
 
 #### 1. Identifying Establishments with Poor Hygiene:
     -Queried for establishments with a hygiene score of 20, displaying the results using Pandas DataFrame for clarity.

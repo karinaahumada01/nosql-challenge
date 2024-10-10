@@ -55,13 +55,10 @@ Used the update_many() method to convert latitude, longitude, and rating values 
 
 ### The analysis revealed several key insights:
 
-    -Specific establishments with extremely poor hygiene that require immediate attention.
-    
-    -Top-rated establishments in the London area suitable for feature articles.
-    
-    -Areas with high concentrations of low-scoring venues, which can be useful for investigative stories.
-    
-    -By using MongoDB and performing structured analysis, this project helps the magazine team make data-driven decisions for their editorial focus.
+- Specific establishments with extremely poor hygiene that require immediate attention.
+- Top-rated establishments in the London area suitable for feature articles.
+- Areas with high concentrations of low-scoring venues, which can be useful for investigative stories.
+- By using MongoDB and performing structured analysis, this project helps the magazine team make data-driven decisions for their editorial focus.
 
 
 ## References

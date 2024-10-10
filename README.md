@@ -6,28 +6,28 @@ This project involves using MongoDB to analyze fictional food hygiene ratings ac
 The analysis is structured into two main parts:
 
 ### 1. Database Setup & Data Cleaning: 
-    Initial setup of the MongoDB database, adding new records, updating existing entries, and removing irrelevant data.
+Initial setup of the MongoDB database, adding new records, updating existing entries, and removing irrelevant data.
 
 ### 2. Exploratory Analysis: 
-    Using queries and aggregation techniques to extract meaningful insights, such as identifying high-risk establishments and finding top-rated venues near a specific location.
+Using queries and aggregation techniques to extract meaningful insights, such as identifying high-risk establishments and finding top-rated venues near a specific location.
 
 ## Code Highlights
 
 ### Part 1: Database Setup and Modifications
 
 #### Data Import: 
-    Data from establishments.json is imported into a MongoDB collection named establishments in the uk_food database. This is achieved using the following command:
+Data from establishments.json is imported into a MongoDB collection named establishments in the uk_food database. This is achieved using the following command:
 
-         mongoimport --db uk_food --collection establishments --file establishments.json --jsonArray --drop
+    mongoimport --db uk_food --collection establishments --file establishments.json --jsonArray --drop
  
 #### Database Connection: 
-    Established using the PyMongo library
+Established using the PyMongo library
 
 #### Insertion & Updates: 
-    Added a new restaurant (Penang Flavours) and updated its details, including setting the correct BusinessTypeID.
+Added a new restaurant (Penang Flavours) and updated its details, including setting the correct BusinessTypeID.
 
 #### Data Type Conversion: 
-    Used the update_many() method to convert latitude, longitude, and rating values to proper numerical types.
+Used the update_many() method to convert latitude, longitude, and rating values to proper numerical types.
 
 ### Part 2: Exploratory Data Analysis
 

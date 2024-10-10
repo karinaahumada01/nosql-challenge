@@ -2,6 +2,14 @@
 
 This project involves using MongoDB to analyze fictional food hygiene ratings across various fictional establishments in the UK. The goal is to help the fictional 'Eat Safe, Love' magazine gain insights into the hygiene standards of different locations and assist their editorial team in focusing on specific areas and establishments for future stories.
 
+## Repository Contents
+
+- NoSQL_setup_starter.ipynb: Jupyter notebook containing the initial database setup, data import, and update operations.
+- NoSQL_analysis_starter.ipynb: Jupyter notebook for exploratory analysis, focusing on querying and analyzing hygiene ratings and local authorities.
+- Resources/establishments.json: The source data in JSON format, containing details of food establishments in the UK.
+
+
+
 ## Project Overview
 The analysis is structured into two main parts:
 
